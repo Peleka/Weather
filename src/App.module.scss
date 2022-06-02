@@ -1,0 +1,18 @@
+.App {
+  color: #404040;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  .wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    width: 50vw;
+    background: linear-gradient(to top right, #486edd 28%, #55d3aa 72%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
