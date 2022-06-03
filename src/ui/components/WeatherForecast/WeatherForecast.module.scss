@@ -6,6 +6,9 @@
     font-size: 36px;
     font-weight: bold;
     color: #fff;
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
   }
 }
 
@@ -15,6 +18,10 @@
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid darkblue;
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+  }
 
   &__name {
     font-size: 26px;
@@ -23,6 +30,7 @@
   &__temp {
     position: relative;
     font-size: 54px;
+
     &:after {
       content: "\00B0";
       position: absolute;
