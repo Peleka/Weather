@@ -24,7 +24,7 @@ function App() {
     };
 
     function success(pos: any) {
-      setGeoData(pos.coords);
+      // setGeoData(pos.coords);
     }
 
     function error(err: any) {

@@ -9,6 +9,9 @@
   flex-direction: column;
   color: #404040;
   font-family: 'Open Sans', sans-serif;
+  @media (max-width: 425px) {
+    max-width: 300px;
+  }
 
   .wrap {
     display: flex;

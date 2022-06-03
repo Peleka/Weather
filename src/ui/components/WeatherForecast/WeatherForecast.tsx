@@ -37,6 +37,7 @@ export const WeatherForecast = (props: WeatherForecastProps) => {
   return (
     <div className={s.content}>
       <p className={s.content__title}>Weather Forecast </p>
+      {!geoData && <p className={s.emptyGeoData}>Please enable geolocation on your device</p>}
       {
         weatherData &&
         <>
